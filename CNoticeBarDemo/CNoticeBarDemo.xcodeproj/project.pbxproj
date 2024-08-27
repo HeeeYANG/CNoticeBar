@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07A74AB42C7D78AB002DBB36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A74AB32C7D78AB002DBB36 /* AppDelegate.swift */; };
+		07A74AB62C7D78AB002DBB36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A74AB52C7D78AB002DBB36 /* SceneDelegate.swift */; };
+		07A74AB82C7D78AB002DBB36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A74AB72C7D78AB002DBB36 /* ViewController.swift */; };
+		07A74ABB2C7D78AB002DBB36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07A74AB92C7D78AB002DBB36 /* Main.storyboard */; };
+		07A74ABD2C7D78AB002DBB36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07A74ABC2C7D78AB002DBB36 /* Assets.xcassets */; };
+		07A74AC02C7D78AB002DBB36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07A74ABE2C7D78AB002DBB36 /* LaunchScreen.storyboard */; };
+		07A74ACB2C7D78AC002DBB36 /* CNoticeBarDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A74ACA2C7D78AC002DBB36 /* CNoticeBarDemoTests.swift */; };
+		07A74AD52C7D78AC002DBB36 /* CNoticeBarDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A74AD42C7D78AC002DBB36 /* CNoticeBarDemoUITests.swift */; };
+		07A74AD72C7D78AC002DBB36 /* CNoticeBarDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A74AD62C7D78AC002DBB36 /* CNoticeBarDemoUITestsLaunchTests.swift */; };
+		07A74AE52C7D79F3002DBB36 /* CNoticeBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A74AE42C7D79F3002DBB36 /* CNoticeBar.swift */; };
+		545E73C053E840E3960AA742 /* Pods_CNoticeBarDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE0AE8A8384F302B8B62D02 /* Pods_CNoticeBarDemo.framework */; };
+		5F01C31D5815F0AE1F9613D9 /* Pods_CNoticeBarDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3506EBB38747BE8EAD452776 /* Pods_CNoticeBarDemoTests.framework */; };
+		975F8871EF429F12E29382ED /* Pods_CNoticeBarDemo_CNoticeBarDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8C4C3B83ED86554FE914E8 /* Pods_CNoticeBarDemo_CNoticeBarDemoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07A74AC72C7D78AC002DBB36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07A74AA82C7D78AB002DBB36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07A74AAF2C7D78AB002DBB36;
+			remoteInfo = CNoticeBarDemo;
+		};
+		07A74AD12C7D78AC002DBB36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07A74AA82C7D78AB002DBB36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07A74AAF2C7D78AB002DBB36;
+			remoteInfo = CNoticeBarDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07A74AB02C7D78AB002DBB36 /* CNoticeBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CNoticeBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07A74AB32C7D78AB002DBB36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07A74AB52C7D78AB002DBB36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		07A74AB72C7D78AB002DBB36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07A74ABA2C7D78AB002DBB36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07A74ABC2C7D78AB002DBB36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07A74ABF2C7D78AB002DBB36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07A74AC12C7D78AB002DBB36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07A74AC62C7D78AC002DBB36 /* CNoticeBarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CNoticeBarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07A74ACA2C7D78AC002DBB36 /* CNoticeBarDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNoticeBarDemoTests.swift; sourceTree = "<group>"; };
+		07A74AD02C7D78AC002DBB36 /* CNoticeBarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CNoticeBarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07A74AD42C7D78AC002DBB36 /* CNoticeBarDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNoticeBarDemoUITests.swift; sourceTree = "<group>"; };
+		07A74AD62C7D78AC002DBB36 /* CNoticeBarDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNoticeBarDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		07A74AE42C7D79F3002DBB36 /* CNoticeBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNoticeBar.swift; sourceTree = "<group>"; };
+		10BBBFCCD7A53164C23B9214 /* Pods-CNoticeBarDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNoticeBarDemoTests.release.xcconfig"; path = "Target Support Files/Pods-CNoticeBarDemoTests/Pods-CNoticeBarDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		3506EBB38747BE8EAD452776 /* Pods_CNoticeBarDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CNoticeBarDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A70A71313105D161784AD62 /* Pods-CNoticeBarDemo-CNoticeBarDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNoticeBarDemo-CNoticeBarDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-CNoticeBarDemo-CNoticeBarDemoUITests/Pods-CNoticeBarDemo-CNoticeBarDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C489FDB69702BF6CDC1D9DB6 /* Pods-CNoticeBarDemo-CNoticeBarDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNoticeBarDemo-CNoticeBarDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-CNoticeBarDemo-CNoticeBarDemoUITests/Pods-CNoticeBarDemo-CNoticeBarDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CF496178FB9D983EE43061AD /* Pods-CNoticeBarDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNoticeBarDemo.debug.xcconfig"; path = "Target Support Files/Pods-CNoticeBarDemo/Pods-CNoticeBarDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DBCA5704EF5FC77D5E4E2ADF /* Pods-CNoticeBarDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNoticeBarDemo.release.xcconfig"; path = "Target Support Files/Pods-CNoticeBarDemo/Pods-CNoticeBarDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DEE0AE8A8384F302B8B62D02 /* Pods_CNoticeBarDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CNoticeBarDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8C4C3B83ED86554FE914E8 /* Pods_CNoticeBarDemo_CNoticeBarDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CNoticeBarDemo_CNoticeBarDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F898B52B15D16D2768871FEE /* Pods-CNoticeBarDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNoticeBarDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-CNoticeBarDemoTests/Pods-CNoticeBarDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07A74AAD2C7D78AB002DBB36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545E73C053E840E3960AA742 /* Pods_CNoticeBarDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07A74AC32C7D78AC002DBB36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F01C31D5815F0AE1F9613D9 /* Pods_CNoticeBarDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07A74ACD2C7D78AC002DBB36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				975F8871EF429F12E29382ED /* Pods_CNoticeBarDemo_CNoticeBarDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07A74AA72C7D78AB002DBB36 = {
+			isa = PBXGroup;
+			children = (
+				07A74AB22C7D78AB002DBB36 /* CNoticeBarDemo */,
+				07A74AC92C7D78AC002DBB36 /* CNoticeBarDemoTests */,
+				07A74AD32C7D78AC002DBB36 /* CNoticeBarDemoUITests */,
+				07A74AB12C7D78AB002DBB36 /* Products */,
+				C5E2DD564C1143ACB9137E16 /* Pods */,
+				920C016C271B6902B0C9DAE2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		07A74AB12C7D78AB002DBB36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07A74AB02C7D78AB002DBB36 /* CNoticeBarDemo.app */,
+				07A74AC62C7D78AC002DBB36 /* CNoticeBarDemoTests.xctest */,
+				07A74AD02C7D78AC002DBB36 /* CNoticeBarDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07A74AB22C7D78AB002DBB36 /* CNoticeBarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				07A74AE32C7D79F3002DBB36 /* CNoticeBar */,
+				07A74AB32C7D78AB002DBB36 /* AppDelegate.swift */,
+				07A74AB52C7D78AB002DBB36 /* SceneDelegate.swift */,
+				07A74AB72C7D78AB002DBB36 /* ViewController.swift */,
+				07A74AB92C7D78AB002DBB36 /* Main.storyboard */,
+				07A74ABC2C7D78AB002DBB36 /* Assets.xcassets */,
+				07A74ABE2C7D78AB002DBB36 /* LaunchScreen.storyboard */,
+				07A74AC12C7D78AB002DBB36 /* Info.plist */,
+			);
+			path = CNoticeBarDemo;
+			sourceTree = "<group>";
+		};
+		07A74AC92C7D78AC002DBB36 /* CNoticeBarDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				07A74ACA2C7D78AC002DBB36 /* CNoticeBarDemoTests.swift */,
+			);
+			path = CNoticeBarDemoTests;
+			sourceTree = "<group>";
+		};
+		07A74AD32C7D78AC002DBB36 /* CNoticeBarDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07A74AD42C7D78AC002DBB36 /* CNoticeBarDemoUITests.swift */,
+				07A74AD62C7D78AC002DBB36 /* CNoticeBarDemoUITestsLaunchTests.swift */,
+			);
+			path = CNoticeBarDemoUITests;
+			sourceTree = "<group>";
+		};
+		07A74AE32C7D79F3002DBB36 /* CNoticeBar */ = {
+			isa = PBXGroup;
+			children = (
+				07A74AE42C7D79F3002DBB36 /* CNoticeBar.swift */,
+			);
+			name = CNoticeBar;
+			path = ../../CNoticeBar;
+			sourceTree = "<group>";
+		};
+		920C016C271B6902B0C9DAE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEE0AE8A8384F302B8B62D02 /* Pods_CNoticeBarDemo.framework */,
+				EA8C4C3B83ED86554FE914E8 /* Pods_CNoticeBarDemo_CNoticeBarDemoUITests.framework */,
+				3506EBB38747BE8EAD452776 /* Pods_CNoticeBarDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5E2DD564C1143ACB9137E16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF496178FB9D983EE43061AD /* Pods-CNoticeBarDemo.debug.xcconfig */,
+				DBCA5704EF5FC77D5E4E2ADF /* Pods-CNoticeBarDemo.release.xcconfig */,
+				9A70A71313105D161784AD62 /* Pods-CNoticeBarDemo-CNoticeBarDemoUITests.debug.xcconfig */,
+				C489FDB69702BF6CDC1D9DB6 /* Pods-CNoticeBarDemo-CNoticeBarDemoUITests.release.xcconfig */,
+				F898B52B15D16D2768871FEE /* Pods-CNoticeBarDemoTests.debug.xcconfig */,
+				10BBBFCCD7A53164C23B9214 /* Pods-CNoticeBarDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07A74AAF2C7D78AB002DBB36 /* CNoticeBarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07A74ADA2C7D78AC002DBB36 /* Build configuration list for PBXNativeTarget "CNoticeBarDemo" */;
+			buildPhases = (
+				5565C564EA3C9F6CE1F2DEDF /* [CP] Check Pods Manifest.lock */,
+				07A74AAC2C7D78AB002DBB36 /* Sources */,
+				07A74AAD2C7D78AB002DBB36 /* Frameworks */,
+				07A74AAE2C7D78AB002DBB36 /* Resources */,
+				59BBB300AD3DF5BFF070ADC1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CNoticeBarDemo;
+			productName = CNoticeBarDemo;
+			productReference = 07A74AB02C7D78AB002DBB36 /* CNoticeBarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07A74AC52C7D78AC002DBB36 /* CNoticeBarDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07A74ADD2C7D78AC002DBB36 /* Build configuration list for PBXNativeTarget "CNoticeBarDemoTests" */;
+			buildPhases = (
+				008B3A8FF0F82975BBDB9871 /* [CP] Check Pods Manifest.lock */,
+				07A74AC22C7D78AC002DBB36 /* Sources */,
+				07A74AC32C7D78AC002DBB36 /* Frameworks */,
+				07A74AC42C7D78AC002DBB36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07A74AC82C7D78AC002DBB36 /* PBXTargetDependency */,
+			);
+			name = CNoticeBarDemoTests;
+			productName = CNoticeBarDemoTests;
+			productReference = 07A74AC62C7D78AC002DBB36 /* CNoticeBarDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07A74ACF2C7D78AC002DBB36 /* CNoticeBarDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07A74AE02C7D78AC002DBB36 /* Build configuration list for PBXNativeTarget "CNoticeBarDemoUITests" */;
+			buildPhases = (
+				45D058E52654006D2F341753 /* [CP] Check Pods Manifest.lock */,
+				07A74ACC2C7D78AC002DBB36 /* Sources */,
+				07A74ACD2C7D78AC002DBB36 /* Frameworks */,
+				07A74ACE2C7D78AC002DBB36 /* Resources */,
+				8758FC1DD6B1C225BC9B43F6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07A74AD22C7D78AC002DBB36 /* PBXTargetDependency */,
+			);
+			name = CNoticeBarDemoUITests;
+			productName = CNoticeBarDemoUITests;
+			productReference = 07A74AD02C7D78AC002DBB36 /* CNoticeBarDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07A74AA82C7D78AB002DBB36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					07A74AAF2C7D78AB002DBB36 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					07A74AC52C7D78AC002DBB36 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 07A74AAF2C7D78AB002DBB36;
+					};
+					07A74ACF2C7D78AC002DBB36 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 07A74AAF2C7D78AB002DBB36;
+					};
+				};
+			};
+			buildConfigurationList = 07A74AAB2C7D78AB002DBB36 /* Build configuration list for PBXProject "CNoticeBarDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07A74AA72C7D78AB002DBB36;
+			productRefGroup = 07A74AB12C7D78AB002DBB36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07A74AAF2C7D78AB002DBB36 /* CNoticeBarDemo */,
+				07A74AC52C7D78AC002DBB36 /* CNoticeBarDemoTests */,
+				07A74ACF2C7D78AC002DBB36 /* CNoticeBarDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07A74AAE2C7D78AB002DBB36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07A74AC02C7D78AB002DBB36 /* LaunchScreen.storyboard in Resources */,
+				07A74ABD2C7D78AB002DBB36 /* Assets.xcassets in Resources */,
+				07A74ABB2C7D78AB002DBB36 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07A74AC42C7D78AC002DBB36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07A74ACE2C7D78AC002DBB36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		008B3A8FF0F82975BBDB9871 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CNoticeBarDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45D058E52654006D2F341753 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CNoticeBarDemo-CNoticeBarDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5565C564EA3C9F6CE1F2DEDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CNoticeBarDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59BBB300AD3DF5BFF070ADC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CNoticeBarDemo/Pods-CNoticeBarDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CNoticeBarDemo/Pods-CNoticeBarDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CNoticeBarDemo/Pods-CNoticeBarDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8758FC1DD6B1C225BC9B43F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CNoticeBarDemo-CNoticeBarDemoUITests/Pods-CNoticeBarDemo-CNoticeBarDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CNoticeBarDemo-CNoticeBarDemoUITests/Pods-CNoticeBarDemo-CNoticeBarDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CNoticeBarDemo-CNoticeBarDemoUITests/Pods-CNoticeBarDemo-CNoticeBarDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07A74AAC2C7D78AB002DBB36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07A74AB82C7D78AB002DBB36 /* ViewController.swift in Sources */,
+				07A74AE52C7D79F3002DBB36 /* CNoticeBar.swift in Sources */,
+				07A74AB42C7D78AB002DBB36 /* AppDelegate.swift in Sources */,
+				07A74AB62C7D78AB002DBB36 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07A74AC22C7D78AC002DBB36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07A74ACB2C7D78AC002DBB36 /* CNoticeBarDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07A74ACC2C7D78AC002DBB36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07A74AD52C7D78AC002DBB36 /* CNoticeBarDemoUITests.swift in Sources */,
+				07A74AD72C7D78AC002DBB36 /* CNoticeBarDemoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07A74AC82C7D78AC002DBB36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07A74AAF2C7D78AB002DBB36 /* CNoticeBarDemo */;
+			targetProxy = 07A74AC72C7D78AC002DBB36 /* PBXContainerItemProxy */;
+		};
+		07A74AD22C7D78AC002DBB36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07A74AAF2C7D78AB002DBB36 /* CNoticeBarDemo */;
+			targetProxy = 07A74AD12C7D78AC002DBB36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07A74AB92C7D78AB002DBB36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07A74ABA2C7D78AB002DBB36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07A74ABE2C7D78AB002DBB36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07A74ABF2C7D78AB002DBB36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07A74AD82C7D78AC002DBB36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07A74AD92C7D78AC002DBB36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07A74ADB2C7D78AC002DBB36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF496178FB9D983EE43061AD /* Pods-CNoticeBarDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CNoticeBarDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.CNoticeBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07A74ADC2C7D78AC002DBB36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBCA5704EF5FC77D5E4E2ADF /* Pods-CNoticeBarDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CNoticeBarDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.CNoticeBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		07A74ADE2C7D78AC002DBB36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F898B52B15D16D2768871FEE /* Pods-CNoticeBarDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.CNoticeBarDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CNoticeBarDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CNoticeBarDemo";
+			};
+			name = Debug;
+		};
+		07A74ADF2C7D78AC002DBB36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10BBBFCCD7A53164C23B9214 /* Pods-CNoticeBarDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.CNoticeBarDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CNoticeBarDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CNoticeBarDemo";
+			};
+			name = Release;
+		};
+		07A74AE12C7D78AC002DBB36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A70A71313105D161784AD62 /* Pods-CNoticeBarDemo-CNoticeBarDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.CNoticeBarDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CNoticeBarDemo;
+			};
+			name = Debug;
+		};
+		07A74AE22C7D78AC002DBB36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C489FDB69702BF6CDC1D9DB6 /* Pods-CNoticeBarDemo-CNoticeBarDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.CNoticeBarDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CNoticeBarDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07A74AAB2C7D78AB002DBB36 /* Build configuration list for PBXProject "CNoticeBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07A74AD82C7D78AC002DBB36 /* Debug */,
+				07A74AD92C7D78AC002DBB36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07A74ADA2C7D78AC002DBB36 /* Build configuration list for PBXNativeTarget "CNoticeBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07A74ADB2C7D78AC002DBB36 /* Debug */,
+				07A74ADC2C7D78AC002DBB36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07A74ADD2C7D78AC002DBB36 /* Build configuration list for PBXNativeTarget "CNoticeBarDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07A74ADE2C7D78AC002DBB36 /* Debug */,
+				07A74ADF2C7D78AC002DBB36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07A74AE02C7D78AC002DBB36 /* Build configuration list for PBXNativeTarget "CNoticeBarDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07A74AE12C7D78AC002DBB36 /* Debug */,
+				07A74AE22C7D78AC002DBB36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07A74AA82C7D78AB002DBB36 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_CNoticeBarDemoTests {
+  umbrella header "Pods-CNoticeBarDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
