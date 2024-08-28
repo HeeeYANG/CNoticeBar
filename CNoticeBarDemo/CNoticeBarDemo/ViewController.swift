@@ -32,6 +32,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         let config = CNoticeBarConfig(content: "CNotice")
         config.margin = UIEdgeInsets(top: 20, left: 10, bottom: 20, right: 10)
         config.content = dataArr[indexPath.row]
+        config.stayTime = 1
         switch indexPath.row {
         case 1:
             config.icon = "msg_warn"

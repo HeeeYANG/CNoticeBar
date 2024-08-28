@@ -15,29 +15,31 @@ public enum CNoticeBarLoction {
 }
 
 public class CNoticeBarConfig{
-    var bgColor: UIColor = .black
-    var contentFont: UIFont = UIFont.systemFont(ofSize: 15)
-    var contentColor: UIColor = .white
-    var icon: String? = nil
-    var content: String = "content"
-    var loction: CNoticeBarLoction = .top
-    var margin: UIEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
-    var imageSize: CGFloat = 20
-    var space: CGFloat = 30
-    var radius: CGFloat = 10
-    var minHeight: CGFloat = 40
+    public var bgColor: UIColor = .black
+    public var contentFont: UIFont = UIFont.systemFont(ofSize: 15)
+    public var contentColor: UIColor = .white
+    public var icon: String? = nil
+    public var content: String = "content"
+    public var loction: CNoticeBarLoction = .top
+    public var margin: UIEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
+    public var imageSize: CGFloat = 20
+    public var space: CGFloat = 30
+    public var radius: CGFloat = 10
+    public var minHeight: CGFloat = 40
+    public var stayTime: CGFloat = 2
 
     public init(content: String,
-         bgColor: UIColor? = nil,
-         contentFont: UIFont? = nil,
-         contentColor: UIColor? = nil,
-         icon: String? = nil,
-         loction: CNoticeBarLoction? = nil,
-         margin: UIEdgeInsets? = nil,
-         imageSize: CGFloat? = nil,
-         space: CGFloat? = nil,
-         radius: CGFloat? = nil,
-         minHeight: CGFloat? = nil){
+                bgColor: UIColor? = nil,
+                contentFont: UIFont? = nil,
+                contentColor: UIColor? = nil,
+                icon: String? = nil,
+                loction: CNoticeBarLoction? = nil,
+                margin: UIEdgeInsets? = nil,
+                imageSize: CGFloat? = nil,
+                space: CGFloat? = nil,
+                radius: CGFloat? = nil,
+                minHeight: CGFloat? = nil,
+                stayTime: CGFloat? = nil){
         self.content = content
         if bgColor != nil {
             self.bgColor = bgColor!
@@ -69,12 +71,15 @@ public class CNoticeBarConfig{
         if minHeight != nil {
             self.minHeight = minHeight!
         }
+        if stayTime != nil {
+            self.stayTime = stayTime!
+        }
     }
 }
 
 public class CNoticeBar: UIView {
     
-    var config: CNoticeBarConfig?
+    public var config: CNoticeBarConfig?
     
     private var timer: Timer?
     
@@ -172,7 +177,7 @@ public class CNoticeBar: UIView {
             timer?.invalidate()
         }
         //启动计时器
-        timer = Timer.scheduledTimer(withTimeInterval: 2, repeats: false) { timer in
+        timer = Timer.scheduledTimer(withTimeInterval: config!.stayTime, repeats: false) { timer in
             self.removeFromSuperview()
         }
     }

@@ -1,7 +1,11 @@
 # CNoticeBar
-一个支持自定义的提示框
+A custom notice bar by swift.
 
-# use
+# Install
 ```
 pod 'CNoticeBar'
+```
+# Example
+```
+CNoticeBar(config: CNoticeBarConfig(content: "Hello!")).show()
 ```
