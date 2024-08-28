@@ -8,13 +8,13 @@
 import UIKit
 import SnapKit
 
-enum CNoticeBarLoction {
+public enum CNoticeBarLoction {
     case top
     case middle
     case bottom
 }
 
-class CNoticeBarConfig{
+public class CNoticeBarConfig{
     var bgColor: UIColor = .black
     var contentFont: UIFont = UIFont.systemFont(ofSize: 15)
     var contentColor: UIColor = .white
@@ -27,7 +27,7 @@ class CNoticeBarConfig{
     var radius: CGFloat = 10
     var minHeight: CGFloat = 40
 
-    init(content: String,
+    public init(content: String,
          bgColor: UIColor? = nil,
          contentFont: UIFont? = nil,
          contentColor: UIColor? = nil,
@@ -72,7 +72,7 @@ class CNoticeBarConfig{
     }
 }
 
-class CNoticeBar: UIView {
+public class CNoticeBar: UIView {
     
     var config: CNoticeBarConfig?
     
@@ -88,7 +88,7 @@ class CNoticeBar: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    init(config: CNoticeBarConfig) {
+    public init(config: CNoticeBarConfig) {
         super.init(frame: .zero)
         self.config = config
         self.backgroundColor = config.bgColor
@@ -130,7 +130,7 @@ class CNoticeBar: UIView {
         
     }
     
-    func show() -> Void {
+    public func show() -> Void {
         if let window = getCurrentWindow() {
             //移除控制器中的一样视图
             for view in window.subviews {
